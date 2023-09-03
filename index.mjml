@@ -1,0 +1,278 @@
+<mjml>
+  <mj-head>
+    <mj-style> *{ box-sizing: border-box; padding:0; margin: 0;} </mj-style>
+    <mj-style inline="inline">
+      .container-background{ background-color: #000; padding: 0; margin:0;}
+      .text-span{color: red;} .link-color{ color: #fff; text-decoration: none}
+      .button{ color: #fafafa; text-decoration: none; padding: 16px 32px;
+      background-color: #0074e0;} @media only screen and (max-width: 400px ) {
+      .social-icons{ background-color: red;} }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2" padding="0" margin="0">
+    <mj-raw><!-- Header Image --></mj-raw>
+    <mj-section css-class="container-background header" padding="0">
+      <mj-column>
+        <mj-image
+          href="https://eu.shop.battle.net/en-gb/sale/game-deals-2023?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=image-link-your-next-quest-begins-with-these-game-deals"
+          src="img/header-image.png"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw><!-- Hero Text --></mj-raw>
+    <mj-section css-class="container-background hero-text">
+      <mj-column>
+        <mj-text
+          font-size="52px"
+          align="center"
+          font-weight="bold"
+          color="#c7c7c7"
+          padding-top="32px"
+          padding-bottom="32px"
+        >
+          Your Next Quest Begins with These Game Deals
+        </mj-text>
+
+        <mj-text
+          font-size="17px"
+          align="left"
+          font-weight="normal"
+          color="#c7c7c7"
+          padding="32px 34px"
+          line-height="32px"
+        >
+          Level up your gaming experience with these
+          <strong>limited-time Game Deals, AlmostR!</strong>
+          Now through<strong> 4 September, save 20-67%</strong> on some of your
+          favorite
+          <strong>Battle.net® games.</strong>
+        </mj-text>
+
+        <mj-text
+          font-size="17px"
+          align="left"
+          font-weight="normal"
+          color="#c7c7c7"
+          padding="0 34px 48px"
+          line-height="32px"
+        >
+          Banish the demon hordes back to Hell and save Sanctuary in
+          <strong>Diablo® IV</strong>, explore the Dragon Isles in
+          <strong>World of Warcraft®: Dragonflight1</strong>, unleash mayhem in
+          <strong>Call of Duty®: Modern Warfare® II</strong>, and more!
+        </mj-text>
+
+        <mj-text
+          align="center"
+          font-size="22px"
+          font-weight="normal"
+          text-decoration="capitalize"
+          padding-bottom="30px"
+          ><a
+            class="button"
+            href="https://eu.shop.battle.net/en-gb/sale/game-deals-2023?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=button-link-secure-your-savings"
+            >Secure Your Savings</a
+          >
+        </mj-text>
+
+        <mj-text
+          align="center"
+          font-size="12px"
+          font-weight="normal"
+          text-decoration="capitalize"
+          padding-bottom="40px"
+          color="#606367"
+          >Requires World of Warcraft Subscription or Game Time.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#15171e">
+      <mj-column>
+        <mj-text align="center" font-size="32px" color="#fff"
+          >Stay Connected</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-raw> <!-- social-icons --> </mj-raw>
+    <mj-section
+      css-class="social-icons"
+      background-color="#15171e"
+      padding="0 190px 40px"
+    >
+      <mj-group>
+        <mj-column>
+          <mj-image
+            href="https://twitter.com/battlenet?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-twitter"
+            src="img/twitter-icon.png"
+            width="24px"
+            height="24px"
+            align="left"
+          />
+        </mj-column>
+
+        <mj-column>
+          <mj-image
+            href="https://www.facebook.com/battlenet?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-facebook"
+            src="img/facebook-icon.png"
+            width="24px"
+            height="24px"
+            align="left"
+          />
+        </mj-column>
+
+        <mj-column>
+          <mj-image
+            href="https://www.instagram.com/battlenet/?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-instagram"
+            src="img/instagram-icon.png"
+            width="24px"
+            height="24px"
+            align="left"
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#15171e">
+      <mj-column>
+        <mj-image
+          href="https://eu.shop.battle.net/en-gb?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=image-link-battlenet-logo"
+          src="img/battlenet-logo.png"
+          width="200px"
+        >
+        </mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#15171e" padding="0 50px">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="12px"
+          text-transform="uppercase"
+          color="#fff"
+        >
+          <a
+            style="text-decoration: none; color: #fff; font-size: 10px"
+            href="https://careers.blizzard.com/gb/en?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=text-link-footer-careers"
+            >careers</a
+          >
+          <span style="color: #148eff">&nbsp | &nbsp</span
+          ><a
+            style="text-decoration: none; color: #fff; font-size: 10px"
+            href="https://www.blizzard.com/en-gb/company/about?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=text-link-footer-about"
+            >About</a
+          >
+          <span style="color: #148eff">&nbsp | &nbsp</span>
+          <a
+            style="text-decoration: none; color: #fff; font-size: 10px"
+            href="https://links.battle.net/f/a/vq8pQATz7ffNTjeFUncSmg~~/AAQRxQA~/RgRm0N_9P0TJaHR0cHM6Ly93d3cuYmxpenphcmQuY29tL2VuLWdiL2xlZ2FsLzhjNDFlN2U2LTBiNjEtNDJjNC1hNjc0LWM5MWQ4ZThkNjhkMz91dG1fc291cmNlPWJuZXQtZ2FtZS1kZWFscy1raWNrb2ZmLTMtMjAyMzA4MjkmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249bWFya2V0aW5nLWdiLTMmdXRtX2NvbnRlbnQ9dGV4dC1saW5rLWZvb3Rlci1wcml2YWN5VwNzcGNCCmTn_VruZNbvAuxSHGRhcmtfc2VjdG9yNTY3QGhvdG1haWwuY28udWtYBAAAAWE~"
+            >privacy</a
+          >
+          <span style="color: #148eff">&nbsp | &nbsp</span>
+          <a
+            style="text-decoration: none; color: #fff; font-size: 10px"
+            href="https://www.blizzard.com/en-gb/legal?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=text-link-footer-terms"
+            >terms</a
+          >
+          <span style="color: #148eff">&nbsp | &nbsp</span>
+          <a
+            style="text-decoration: none; color: #fff; font-size: 10px"
+            href="https://eu.battle.net/support/en/"
+            >support</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer /> -->
+    </mj-raw>
+    <mj-section background-color="#15171e">
+      <mj-column>
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="10px 40px"
+          align="left"
+        >
+          If you no longer wish to receive Blizzard news, or information
+          relating to Blizzard products,
+          <a
+            href="https://03.emailinboundprocessing.com/enc_user/unsubscribe?d=%241%24Ok7936zTzsiJERT1VCQi%2FA%3D%3D%24huc1bVSTA8A0%2BV%2B9L4c%2BxLOLXChPNHUajgiw8L73nMSwUvPfYi1xuRbbbIZk%0ATMfYF%2FPCHDlDeSgNd8Ghv9cVr%2FJ98uiM%2F91ZWwMqAhnr610z0uR4jEZuUhHJ%0AvlH8nxNuIduw0fqt7CaNn%2FU7X9x%2BHEE18NZMk7l%2BONTcH97ineVzevF0g5cG%0Apo9fpUJ4KZ7owuS4ZHrJooCE4hOnno6RIWWDkyTzhAE6iRA5as2GdYchdMSQ%0A2W8u9gYwDtPI8kXx2QTFYqHi6Rc7gHyP%2BJZXtaHN5POuaKD8zR7pR8wunZ%2Ft%0A3wPwO%2BvqoQMCmrjzcONvyjmDZduWz5%2Fxf4P5byiBgad3NJF94MJMjf59Xa%2Fj%0AjgjlqLkCxNzSBiF%2BbWRavErA&1=1"
+            style="text-decoration: none; color: #fff"
+            >click here</a
+          >.
+        </mj-text>
+
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="10px 40px"
+          align="left"
+          line-height="1.3"
+        >
+          © 2023 Blizzard Entertainment, Inc. World of Warcraft, Diablo,
+          Battle.net, and Blizzard Entertainment are trademarks or registered
+          trademarks of Blizzard Entertainment, Inc. in the U.S. and/ or other
+          countries. All other trademarks referenced herein are the properties
+          of their respective owners.
+        </mj-text>
+
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="5px 40px"
+          padding-bottom="0"
+          margin-bottom="0"
+          align="left"
+          line-height="1.3"
+        >
+          © 2023 Activision Publishing, Inc. Activision, Call of Duty, and
+          Modern Warfare are trademarks or registered trademarks of Activision
+          Publishing, Inc. All other trademarks and trade names are the
+          properties of their respective owners.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#15171e" padding="0">
+      <mj-column>
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="5px 40px 5px"
+          padding-top="0"
+          align="left"
+          >Activision Blizzard UK Ltd, The Ampersand Building
+        </mj-text>
+
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="0 40px 5px"
+          align="left"
+          >178 Wardour Street, London W1F 8FY
+        </mj-text>
+
+        <mj-text
+          color="#4c4e53"
+          font-size="10px"
+          padding="0 40px 5px"
+          align="left"
+          >United Kingdom
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#15171e">
+      <mj-column width="130px">
+        <mj-image src="img/pegi-18.png"> </mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
