@@ -5,8 +5,7 @@
       .container-background{ background-color: #000; padding: 0; margin:0;}
       .text-span{color: red;} .link-color{ color: #fff; text-decoration: none}
       .button{ color: #fafafa; text-decoration: none; padding: 16px 32px;
-      background-color: #0074e0;} @media only screen and (max-width: 400px ) {
-      .social-icons{ background-color: red;} }
+      background-color: #0074e0;}
     </mj-style>
   </mj-head>
 
@@ -18,6 +17,7 @@
           href="https://eu.shop.battle.net/en-gb/sale/game-deals-2023?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=image-link-your-next-quest-begins-with-these-game-deals"
           src="img/header-image.png"
           padding="0"
+          alt="Battlenet logo with game deals event"
         />
       </mj-column>
     </mj-section>
@@ -98,20 +98,20 @@
       </mj-column>
     </mj-section>
 
-    <mj-raw> <!-- social-icons --> </mj-raw>
+    <mj-raw> <!-- social-icons  padding="0 190px 40px" --> </mj-raw>
     <mj-section
       css-class="social-icons"
       background-color="#15171e"
-      padding="0 190px 40px"
+      padding-bottom="40px"
     >
-      <mj-group>
+      <mj-group width="220px">
         <mj-column>
           <mj-image
             href="https://twitter.com/battlenet?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-twitter"
             src="img/twitter-icon.png"
             width="24px"
             height="24px"
-            align="left"
+            align="right"
           />
         </mj-column>
 
@@ -121,7 +121,7 @@
             src="img/facebook-icon.png"
             width="24px"
             height="24px"
-            align="left"
+            align="center"
           />
         </mj-column>
 
