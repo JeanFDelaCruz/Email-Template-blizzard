@@ -1,6 +1,10 @@
 <mjml>
   <mj-head>
-    <mj-style> *{ box-sizing: border-box; padding:0; margin: 0;} </mj-style>
+    <mj-style>
+      *{ box-sizing: border-box; padding:0; margin: 0;} @media only screen and
+      (max-width: 325px) { .button { padding: 12px 22px !important; font-size:
+      16px !important; } }
+    </mj-style>
     <mj-style inline="inline">
       .container-background{ background-color: #000; padding: 0; margin:0;}
       .text-span{color: red;} .link-color{ color: #fff; text-decoration: none}
@@ -107,6 +111,7 @@
       <mj-group width="220px">
         <mj-column>
           <mj-image
+            css-class="icons"
             href="https://twitter.com/battlenet?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-twitter"
             src="img/twitter-icon.png"
             width="24px"
@@ -117,6 +122,7 @@
 
         <mj-column>
           <mj-image
+            css-class="icons"
             href="https://www.facebook.com/battlenet?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-facebook"
             src="img/facebook-icon.png"
             width="24px"
@@ -127,6 +133,7 @@
 
         <mj-column>
           <mj-image
+            css-class="icons"
             href="https://www.instagram.com/battlenet/?utm_source=bnet-game-deals-kickoff-3-20230829&utm_medium=email&utm_campaign=marketing-gb-3&utm_content=social-link-instagram"
             src="img/instagram-icon.png"
             width="24px"
